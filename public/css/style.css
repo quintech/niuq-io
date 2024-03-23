@@ -1,0 +1,374 @@
+*::selection{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+/*全預設定*/
+body{
+    /*82px 是nav導覽列的高度設定固定在那後需要把body往下推*/
+    padding-top: 82px !important;
+}
+
+/*Nav導覽列*/
+.quinNavBar{
+    background-color: #0f4c81 !important;
+    /*position: absolute;*/
+}
+/*取消 a 連結的底線樣式*/
+a {
+    text-decoration:none !important;
+}
+a:hover {
+    text-decoration:none !important;
+}
+/*觸碰Nav上面的按鈕後樣式*/
+.NiuqNavBarBtn:hover {
+    background-color: #0f4c81;
+    border: #fff solid 1px;
+}
+
+/*導覽列 登入按鈕*/
+.NiuqNavLogBtn {
+    background-color: #0f4c81;
+    border: #fff solid 1px;
+    color: #fff;
+}
+.NiuqNavLogBtn:hover {
+    background-color: #185890;
+    color: #fff;
+    border: #000 solid 1px;
+    /*#6D9DC5    */
+    /*#3066BE*/
+}
+/*登入後使用者在ＮＡＶ上的樣式*/
+.navUser{
+    background-color: #0f4c81;
+    color: #fff;
+}
+
+/*Footer樣式*/
+.footerStyle{
+    background-color: #f0f2f5;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+}
+/*贊助區塊樣式*/
+.donateArea {
+    border: 1px solid #000;
+    padding: 1rem 10px;
+    border-radius: 4px;
+    text-align: center;
+    /*強制顯示並且不能換行*/
+    white-space:nowrap;
+}
+/*首頁Title*/
+.titleStyle{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+/*搜尋新聞按鈕樣式*/
+.newsSearchBtn{
+    color: #fff;
+    border-color: #0f4c81;
+    background: #0f4c81;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+.newsSearchBtn:hover{
+    color: #fff;
+    border-color: #185890;
+    background: #185890;
+}
+/*搜尋新聞Input樣式*/
+.newsSearchInput{
+    border-radius: 0.5rem;
+}
+.newsSearchInput:hover {
+    border-color: #272727;
+
+}
+/*新聞中心 Card */
+.cardHeader{
+    background-color: #0f4c81;
+}
+/*新聞中心 Card Btn 分享按鈕*/
+.cardHeaderBtn{
+    background-color: #0f4c81;
+    border: white solid 1px;
+    color: white;
+    border-radius: 0;
+}
+.cardHeaderBtn:hover{
+    background-color: #001F54;
+    border: white solid 1px;
+    color: white;
+    border-radius: 0;
+}
+.cardHeaderBtn:focus{
+    background-color: #001F54;
+    border: white solid 1px;
+    color: white;
+    border-radius: 0;
+}
+/*分享按鈕 黑框板*/
+.cardHeaderDarkBtn{
+    background-color: white;
+    color: black;
+    border: #F2F2F2 solid 1px;
+    border-radius: 0;
+}
+.cardHeaderDarkBtn:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    border-radius: 0;
+}
+.cardHeaderDarkBtn:focus{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    border-radius: 0;
+}
+/*分享選單*/
+.shareMenu{
+    width: auto;
+    min-width: 25rem;
+}
+/*複製網址按鈕*/
+.copyUrlBtn{
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+}
+.copyUrlBtn:hover{
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+}
+.copyUrlBtn:focus{
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+}
+/*新聞內頁標題*/
+.newsDetailTitle{
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+}
+/*新聞副標題*/
+.newsDetailSubTitle{
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.23;
+}
+
+.leftTitle{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+}
+/*分數圓圈*/
+.fractionCircle{
+    font-size: 20px;
+    margin-right: 5px;
+}
+/*分數圓圈 未達到*/
+.fractionCircleNotStandard{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.bg-safe{
+    background: #51cc60;
+}
+.bg-amber{
+    background: #facc4b;
+}
+.bg-danger{
+    background: #dc3545;
+}
+.bg-notStandard{
+    background: #999;
+}
+/*新聞內頁 API回傳內容框*/
+.contentBorder{
+    border: 1px solid #999;
+    padding: 1rem;
+    margin: 1rem;
+}
+/*新聞內頁 隱藏內容按鈕  顯示狀態*/
+.dropdown-toggle-style-open{
+    font-size: 4rem;
+    transform: rotateZ(0deg);
+    transition: all 0.4s ease;
+}
+/*新聞內頁 隱藏內容按鈕  隱藏狀態*/
+.dropdown-toggle-style{
+    font-size: 4rem;
+    transition: all 0.4s ease;
+    transform: rotateZ(-90deg);
+}
+/*登入區塊會用到的*/
+.cls-1{
+    fill:#999;
+}
+.login-logo{
+    width: 300px;
+    height: 300px;
+}
+.mobile-login-logo{
+    width: 30px;
+    height: 30px;
+}
+.footer-under{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.sing-in-logo{
+    border-radius: 100%;
+    border: #909590 solid 1px;
+}
+.sing-in-logo:hover {
+    border-radius: 100%;
+    /*border: #7FDEFF solid 3px;*/
+    background-color: #000;
+}
+/*NAV使用者頭貼*/
+.nav-user-image{
+    border-radius: 100%;
+}
+/*手機版NAV按鈕*/
+.mobile-nav-btn:hover{
+    background-color: #272727;
+    color: white !important;
+}
+
+/*下次再填寫按鈕*/
+.google-fill-next-time{
+    color: white;
+    background-color: black;
+}
+.google-fill-next-time:hover{
+    color: #252323;
+    background-color: #fff;
+    border: #5DA9E9 solid 1px;
+}
+
+/*Google登入後顯示資訊方框*/
+.google-sign-in-card{
+    border: black solid 3px;
+}
+
+/*註冊input提示上移動*/
+input:focus ~ .floating-label-left,
+input:not(:focus):valid ~ .floating-label-left{
+    top: -65px;
+    left: 10px;
+    font-size: 11px;
+    opacity: 1;
+}
+
+input:focus ~ .floating-label-6,
+input:not(:focus):valid ~ .floating-label-6{
+    top: -65px;
+    left: 10px;
+    font-size: 11px;
+    opacity: 1;
+}
+
+.floating-label-left {
+    position: relative;
+    pointer-events: none;
+    transition: 0.2s ease all;
+
+    top: -30px;
+    left: 10px;
+}
+
+.floating-label-6 {
+    position: relative;
+    pointer-events: none;
+    transition: 0.2s ease all;
+
+    top: -30px;
+    left: 10px;
+}
+
+.btn-skyBlue{
+    background-color: #98D2EB;
+    color: white;
+}
+.btn-skyBlue:hover{
+    background-color: #98C7EB;
+    color: black;
+}
+
+.btn-darkBlue{
+    background-color: #0f4c81;
+    color: white;
+}
+.btn-darkBlue:hover{
+    background-color: #185890;
+    color: black;
+}
+
+.btn-next-page{
+    background-color: #fff;
+    color: black;
+    font-size: 1.5rem;
+}
+.btn-next-page:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+.btn-previous-page{
+    background-color: #fff;
+    color: black;
+    font-size: 1.5rem;
+}
+.btn-previous-page:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+
+/*圖示*/
+.footer-icon {
+    font-size: calc(0.5rem + 1.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.dark-blue{
+    color: #0f4c81;
+}
+.dark-blue:hover{
+    color: #185890;
+}
+/*安全狀態顏色*/
+.text-safe{
+    color: #51cc60;
+}
+/*警告狀態顏色*/
+.text-amber{
+    color: #facc4b;
+}
+
+.card-text{
+    height: 30px;
+}
