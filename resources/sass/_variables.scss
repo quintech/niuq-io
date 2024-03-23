@@ -1,0 +1,16 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+.google-icon { 
+    cursor: pointer;
+    max-width: 30%;
+    &:hover{
+        background:url('../js/public/images/google/btn_google_signin_light_normal_web@2x.png');
+        background-size: 100%;
+    }
+}
